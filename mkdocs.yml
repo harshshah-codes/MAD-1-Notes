@@ -1,0 +1,5 @@
+site_name: MAD-1 Notes
+theme:
+  name: material
+plugins:
+  - search
