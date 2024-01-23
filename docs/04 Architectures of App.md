@@ -1,0 +1,1 @@
+# Architectures of an "App".
