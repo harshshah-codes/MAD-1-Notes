@@ -16,6 +16,6 @@
 
 - Example:
 <figure>
-  ![Email MVC](/assets/MVC-Paradigm.png)
+  ![Email MVC](assets/MVC-Paradigm.png)
   <figcaption>MVC Paradigm when using Email Client</figcaption>
 </figure>
