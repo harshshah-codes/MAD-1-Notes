@@ -1,6 +1,8 @@
 site_name: MAD-1 Notes
 theme:
   name: material
+  font:
+    code: Space Mono
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
@@ -21,14 +23,16 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to system preference
-
   features:
+    - navigation.instant
+    - navigation.instant.progress
     - content.code.copy
     - content.code.select
     - navigation.footer
-
+    - navigation.path
 markdown_extensions:
-  - md_in_html
+  - admonition
+  - pymdownx.details
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
@@ -45,6 +49,7 @@ extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
 
 extra_css:
+  - stylesheets/extra.css
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
 
 extra:
